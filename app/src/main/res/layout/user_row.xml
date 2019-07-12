@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              app:chainUseRtl="false">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+    >
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textid"
+                    tools:text="salam"
+                    android:textSize="22sp"
+                    android:layout_marginLeft="9dp"
+                    android:gravity="right"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    tools:text="salam"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtNemuneh"
+
+                    android:textSize="22sp" android:gravity="right"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    tools:text="salam"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textFamily"
+                    android:textSize="22sp"
+                    android:gravity="right"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:gravity="left"
+        >
+
+            <ImageButton
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="40dp"
+                    android:id="@+id/btnimageedit"
+                    android:layout_marginLeft="5dp"
+
+
+                    android:src="@drawable/edit"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="#020101">
+    </LinearLayout>
+</LinearLayout>
